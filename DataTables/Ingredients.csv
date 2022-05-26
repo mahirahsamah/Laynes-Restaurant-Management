@@ -1,0 +1,25 @@
+Ingredients					
+Ingredient_ID int PRIMARY KEY	Ingredient_name text	Ingredient_quantity float	Ingredient_quantity_type text	Ingredient_menu_item text	Ingredient_price float
+1	'chicken_breast'	10.00	'pounds'	'Chicken Fingers/The Sandwich/Club Sandwich'	5.00
+2	'eggs'	10.00	'cartons'	'Chicken Fingers/The Sandwich/Club Sandwich'	5.00
+3	'flour'	10.00	'bags'	'Chicken Fingers/The Sandwich/Club Sandwich'	5.00
+4	'bread_crumbs'	10.00	'boxes'	'Chicken Fingers/The Sandwich/Club Sandwich'	5.00
+5	'bread_loaf'	10.00	'loaves'	'The Sandwich/Club Sandwich/Grilled Cheese Sandwich/Texas Toast'	5.00
+6	'bacon'	10.00	'pounds'	'Club Sandwich'	5.00
+7	'fries_frozen'	10.00	'bags'	'Fries'	5.00
+8	'butter'	10.00	'pounds'	'The Sandwich/Club Sandwich/Grilled Cheese Sandwich/Texas Toast'	5.00
+9	'oil'	10.00	'bottles'	'Chicken Fingers/The Sandwich/Club Sandwich/Fries'	5.00
+10	'pepper'	10.00	'bottles'	'Layne''s Sauce'	5.00
+11	'cheese'	10.00	'boxes'	'Club Sandwich/Grilled Cheese Sandwich'	5.00
+12	'potato_salad'	10.00	'tubs'	'Potato Salad'	5.00
+13	'mayonaise'	10.00	'bottles'	'Layne''s Sauce'	5.00
+14	'worcestershire_sauce'	10.00	'bottles'	'Layne''s Sauce'	5.00
+15	'buttermilk_ranch'	10.00	'bottles'	'Buttermilk Ranch'	5.00
+16	'honey_mustard'	10.00	'bottles'	'Honey Mustard'	5.00
+17	'bbq_sauce'	10.00	'bottles'	'BBQ Sauce'	5.00
+18	'ice_cream_chocolate'	10.00	'tubs'	'Hand Spun Shakes'	5.00
+19	'ice_cream_vanilla'	10.00	'tubs'	'Hand Spun Shakes'	5.00
+20	'ice_cream_strawberry'	10.00	'tubs'	'Hand Spun Shakes'	5.00
+21	'ice_cream_caramel'	10.00	'tubs'	'Hand Spun Shakes'	5.00
+22	'milk'	10.00	'gallons'	'Hand Spun Shakes'	5.00
+23	'garlic'	10.00	'pounds'	'The Sandwich/Club Sandwich/Grilled Cheese Sandwich/Texas Toast'	5.00

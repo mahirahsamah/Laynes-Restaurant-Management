@@ -1,0 +1,18 @@
+SELECT * FROM ingredients WHERE ingredient_name LIKE '%flour%';
+SELECT * FROM inventory WHERE inventory_quantity BETWEEN 1 AND 10;
+SELECT * FROM menu_items ORDER BY item_price;
+SELECT * FROM ingredients, inventory WHERE ingredients.ingredient_price = inventory.inventory_price;
+SELECT DISTINCT utensil_type FROM utensils;
+SELECT utensil_type FROM utensils WHERE utensil_type LIKE '%Straw%';
+SELECT quantity FROM utensils WHERE quantity BETWEEN 1 and 3;
+SELECT DISTINCT item_description FROM menu_items;
+SELECT item_name FROM menu_items ORDER BY item_price;
+SELECT ingredients.ingredients_ID, ingredients.ingredient_name, utensils.utensil_type FROM utensils INNER JOIN ingredients ON utensils.quantity = CAST(ingredients.quantity_multiplyer AS INT);
+SELECT item_price FROM menu_items UNION ALL SELECT ingredient_price FROM ingredients ORDER BY item_price;
+SELECT item_name FROM menu_items WHERE item_price LIKE '%$4.50%';
+SELECT item_name FROM menu_items WHERE item_id BETWEEN 507 AND 513;
+SELECT utensil_type FROM utensils WHERE sold_by LIKE '%2500/case%' ORDER BY quantity;
+SELECT utensil_type FROM utensils WHERE quantity BETWEEN 2 AND 4 ORDER BY price;
+SELECT * FROM weekly_sales WHERE sales_id LIKE '%502%';
+SELECT DISTINCT sales_id FROM weekly_sales LEFT JOIN menu_items ON weekly_sales.item = menu_items.item_id;
+SELECT * FROM inventory FULL OUTER JOIN janitorial ON inventory.inventory_sku = janitorial.sku WHERE inventory_quantity = 1;
